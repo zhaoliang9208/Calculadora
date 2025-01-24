@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="display">
+            <input id="disp" type="text" placeholder="0">
+        </div>
+        <div class="botones">
+            <div>
+                <button id="" onclick="porcentaje()">%</button>
+                <button id="" onclick="ce()">CE</button>
+                <button id="" onclick="c()">C</button>
+                <button id="division" onclick="division()">/</button>
+            </div>
+            <div>
+                <button id="7" onclick="siete()">7</button>
+                <button id="9" onclick="nueve()">9</button>
+                <button id="8" onclick="ocho()">8</button>
+                <button id="multiplicacion" onclick="multiplicacion()">*</button>
+            </div>
+            <div>
+                <button id="4" onclick="cuatro()">4</button>
+                <button id="5" onclick="cinco()">5</button>
+                <button id="6" onclick="seis()">6</button>
+                <button id="resta" onclick="resta()">-</button>
+            </div>
+            <div>
+                <button id="1" onclick="uno()">1</button>
+                <button id="2" onclick="dos()">2</button>
+                <button id="3" onclick="tres()">3</button>
+                <button id="suma" onclick="suma()">+</button>
+            </div>
+            <div>
+                <button id="cero" onclick="cero()">0</button>
+                <button>.</button>
+                <button id="igual" onclick="igual()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
